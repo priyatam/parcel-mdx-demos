@@ -1,8 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Highlight from './highlight'
+import ReactTooltip from 'react-tooltip'
+import Sticky from 'react-stickynode'
+
 # Hello, MDX!
 
 This is a pretty cool MDX file.
 
-import Highlight from './highlight';
-
 <Highlight color="#25c2a0">Docusaurus green</Highlight>
 
+
+<p data-tip="hello world">Tooltip</p>
+<ReactTooltip />
+
+<Sticky enabled={true} top={50} bottomBoundary={1200}>
+    <h2> I am a stick component (need a page long enough to scroll down) </h2>
+</Sticky>

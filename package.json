@@ -17,6 +17,9 @@
     "dependencies": {
         "@mdx-js/react": "^1.6",
         "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react-awesome-stars-rating": "^0.11.0",
+        "react-dom": "^17.0.2",
+        "react-stickynode": "^4.0.0",
+        "react-tooltip": "^4.2.21"
     }
 }
